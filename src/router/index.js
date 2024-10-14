@@ -120,21 +120,21 @@ const router = createRouter({
         },
       ],
     },
-    {
-      path: "/authorization",
-      name: "authorization",
-      component: () => import("../pages/Authorization.vue"),
-    },
-    {
-      path: "/register",
-      name: "registration",
-      component: () => import("../pages/Registration.vue"),
-    },
-    {
-      path: "/login",
-      name: "login",
-      component: () => import("../pages/Login.vue"),
-    },
+    // {
+    //   path: "/authorization",
+    //   name: "authorization",
+    //   component: () => import("../pages/Authorization.vue"),
+    // },
+    // {
+    //   path: "/register",
+    //   name: "registration",
+    //   component: () => import("../pages/Registration.vue"),
+    // },
+    // {
+    //   path: "/login",
+    //   name: "login",
+    //   component: () => import("../pages/Login.vue"),
+    // },
     {
       path: "/:pathMatch(.*)*",
       name: "error",
